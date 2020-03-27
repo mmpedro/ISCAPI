@@ -21,3 +21,4 @@ A ISCAPI (Integração de Serviços Comuns API) é uma camada de integração, q
 ![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/wso2.png)
 ![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/liferay.png)
 ![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/flowable.png)
+![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/tuleap.png)
