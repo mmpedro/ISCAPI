@@ -112,6 +112,31 @@ Esta operação pode ser usada de forma bidirecional conforme os cenários , per
 ```
 **Necessário ter protocolo com a AMA para utilizar a Plataforma de Pagamentos da AMA**
 
+
+## Solicitar cálculo da taxa
+Esta operação pode ser usada de forma bidirecional conforme os cenários , permite solicitar o cálculo de uma taxa para a
+tramitação do processo na plataforma de serviços ou no sistema de informação da entidade parceira.
+
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|Form|ElectronicForm|1....1|
+|feeType|string|1....1|
+|serviceCode|string|1....1|
+|entityCode|string|1....1|
+
+```markdown
+<operationData>
+    <operationCode>ISCOP015RateServiceTax</operationCode>
+    <operationVersion />
+	<serviceCode>CES:SRV:000005469</serviceCode>
+    <entityCode>SIOE:ORG:070080000</entityCode>   
+    <feeType>T</feeType> 
+	<Form></Form>
+</operationData>
+```
+
 ## Envio de meios de pagamento
 Esta operação pode ser usada de forma bidirecional conforme os cenários , permite enviar os meios de pagamento.
 
