@@ -25,7 +25,11 @@ ctx.font = "16px Arial";
     ctx.drawImage($('img').get(0), 0, 0);
     //refill text
     ctx.fillStyle = "gray";
-    ctx.fillText("RNET nº2232",160,90);
+		
+var urlParams = new URLSearchParams(window.location.search);
+var numero=urlParams.get('numero');
+    ctx.fillText("RNET N:"+numero,160,90);
+	
 }
 </script>
 
