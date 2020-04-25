@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+    </style>
+    <script src="https://stacksnippets.net/scripts/snippet-javascript-console.min.js?v=1"></script>
+
+
+</head>
+<body onload="drawtext()">
+
+<script>
+function drawtext() {
+      var canvas = document.getElementById('canvas'),
+        ctx = canvas.getContext('2d');
+canvas.width = $('img').width();
+canvas.crossOrigin = "Anonymous";
+canvas.height = $('img').height();
+ctx.drawImage($('img').get(0), 0, 0);
+ctx.font = "16px Arial";
+//redraw image
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    ctx.drawImage($('img').get(0), 0, 0);
+    //refill text
+    ctx.fillStyle = "gray";
+    ctx.fillText("RNET nº2232",160,90);
+}
+</script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<form>
+    <img style="display:none" src="https://amagovpt.github.io/ISCAPI/assets/images/RNET.png" crossorigin="anonymous"/>
+
+  
+</form>
+
+
+<canvas id="canvas" />
+ 
+</body>
+</html>
