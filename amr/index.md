@@ -129,6 +129,7 @@ Colocar um comentário para o cidadão
 </sendComments> 
 ```
 ## Categorias
+
 | ID | Descrição|
 |------------ | ------------|
 |2|	Animais Abandonados|
