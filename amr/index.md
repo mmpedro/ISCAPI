@@ -79,6 +79,8 @@ Obter ocorrências
 	<parish></parish>
 	<status></status>
 	<dateReportedStart></dateReportedStart>
+	<dateReportedEnd></dateReportedEnd>
+	<dateSolvedStart></dateSolvedStart>
 	<dateSolvedEnd></dateSolvedEnd>
 </search>  
 ```
