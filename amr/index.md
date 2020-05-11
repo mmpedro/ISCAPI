@@ -150,6 +150,7 @@ Colocar um comentário para o cidadão
 |19|Poluição Sonora|
 
 ## Categorias
+
 | ID | Descrição|
 |------------ | ------------|
 |0|Submetido|
