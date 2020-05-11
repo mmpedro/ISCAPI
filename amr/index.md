@@ -68,9 +68,9 @@ Obter ocorrências
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|distrinc|string|1....1|
+|district|string|1....1|
 |county|string|1....1|
-|parish|string||1....1|
+|parish||string||1....1|
 
 ```markdown
 <search>
