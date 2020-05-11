@@ -150,7 +150,7 @@ Colocar um comentário para o cidadão
 |17|Manutenção e Limpeza de Contentores e Ecopontos|
 |19|Poluição Sonora|
 
-## Categorias
+## Estado
 
 | ID | Descrição|
 |------------ | ------------|
