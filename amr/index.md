@@ -22,14 +22,16 @@ Registar uma ocorrência
 	<dateReported>?</dateReported>
 	<title>?</title>
 	<description>?</description>
-	<citizen>
+	<person>
 		<name></name>
 		<email>?</email>
 		<phone>?</phone>
-	</citizen>
+	</person>
 	<isPrivate>?</isPrivate>
-	<system>?</system>
-	<address>
+	<channel>
+		<webpage></webpage>
+	</channel>
+	<location>
 		<postCode4></postCode4>
 		<postCode3></postCode3>
 		<postName></postName>
@@ -39,11 +41,7 @@ Registar uma ocorrência
 		<addressType><addressType>
 		<latitude></latitude>
 		<Longitude></longitude>
-	</address>
-	<otherCategory>?</otherCategory>
-	
-	
-	
+	</location>
 </problem>  
 ```
 ## Atualização de um problema
@@ -160,3 +158,4 @@ Colocar um comentário para o cidadão
 |3|Não Aplicável|
 |4|Reencaminhado|
 
+![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/amr.png)
