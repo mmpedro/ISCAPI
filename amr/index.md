@@ -70,7 +70,7 @@ Obter ocorrências
 |------------ | ------------|
 |district|string|1....1|
 |county|string|1....1|
-|parish||string||1....1|
+|parish|string|1....1|
 
 ```markdown
 <search>
