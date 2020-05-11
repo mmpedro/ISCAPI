@@ -110,4 +110,23 @@ Obter feedback de uma ocorrência
 </getFeedback> 
 ```
 
+| ID | Descrição|
+|------------ | ------------|
+|2|	Animais Abandonados|
+|3|	Limpeza de Valetas, Bermas e Caminhos|
+|4|	Conservação da Iluminação Pública|
+|5|	Limpeza e Conservação de Espaços Públicos|
+|6|	Saneamento, Ruturas de Águas ou |Desvio de Tampas|
+|7|	Sinalização de Trânsito|
+|8|	Conservação de Parque Escolar|
+|9|	Conservação das Ruas e Pavimento|
+|10|Publicidade, Outdoors e Cartazes|
+|11|Manutenção de Ciclovias|
+|12|Recolha de Lixo|
+|13|Manutenção, Rega e Limpeza de Jardins|
+|14|Nomes ou Numeração de Ruas|
+|15|Estacionamento de Veículos|
+|16|Acessos para Cidadãos com Mobilidade Reduzida|
+|17|Manutenção e Limpeza de Contentores e Ecopontos|
+|19|Poluição Sonora|
 
