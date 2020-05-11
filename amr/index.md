@@ -135,7 +135,7 @@ Colocar um comentário para o cidadão
 |3|	Limpeza de Valetas, Bermas e Caminhos|
 |4|	Conservação da Iluminação Pública|
 |5|	Limpeza e Conservação de Espaços Públicos|
-|6|	Saneamento, Ruturas de Águas ou |Desvio de Tampas|
+|6|	Saneamento, Ruturas de Águas ou Desvio de Tampas|
 |7|	Sinalização de Trânsito|
 |8|	Conservação de Parque Escolar|
 |9|	Conservação das Ruas e Pavimento|
