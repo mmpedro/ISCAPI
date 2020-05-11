@@ -12,23 +12,23 @@ Registar uma ocorrência
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|string|1....1|
-|OperationVersion|string|1....1|
-|Form|Formulário eForms|1....1|
+|dateReported|string|1....1|
+|title|string|1....1|
+|description|string|1....1|
+|description|string|1....1|
 
 ```markdown
 <problem>
 	<dateReported>?</dateReported>
 	<title>?</title>
 	<description>?</description>
-	<personName>?</personName>
-	<email>?</email>
-	<phone>?</phone>
+	<citizen>
+		<name></name>
+		<email>?</email>
+		<phone>?</phone>
+	</citizen>
 	<isPrivate>?</isPrivate>
-	<host>?</host>
-	<a>?
-	</isActive>
-	<status>?</status>
+	<system>?</system>
 	<address>
 		<postCode4></postCode4>
 		<postCode3></postCode3>
@@ -36,12 +36,14 @@ Registar uma ocorrência
 		<county></county>
 		<district></district>
 		<parish></parish>
+		<addressType><addressType>
+		<latitude></latitude>
+		<Longitude></longitude>
 	</address>
 	<otherCategory>?</otherCategory>
-	<comments>?</comments>
-	<latitude>?</latitude>
-	<addressType>?
-	</typeAddress>
+	
+	
+	
 </problem>  
 ```
 ## Atualização de um problema
@@ -110,6 +112,23 @@ Obter feedback de uma ocorrência
 </getFeedback> 
 ```
 
+## Enviar commentários
+Colocar um comentário para o cidadão
+
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|problemID|string|1....1|
+
+```markdown
+<sendComments>
+	<district></district>
+	<county></county>
+	<parish></parish>
+	<problemID></problemID>
+	<comments></comments>
+</sendComments> 
+```
+## Categorias
 | ID | Descrição|
 |------------ | ------------|
 |2|	Animais Abandonados|
@@ -129,4 +148,13 @@ Obter feedback de uma ocorrência
 |16|Acessos para Cidadãos com Mobilidade Reduzida|
 |17|Manutenção e Limpeza de Contentores e Ecopontos|
 |19|Poluição Sonora|
+
+## Categorias
+| ID | Descrição|
+|------------ | ------------|
+|0|Submetido|
+|1|Em Análise|
+|2|Resolvido|
+|3|Não Aplicável|
+|4|Reencaminhado|
 
