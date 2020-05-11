@@ -1,6 +1,6 @@
 # Integração de Serviços Comuns
 A API de A Minha Rua é uma camada de integração, que disponibiliza um conjunto de operações com o objetivo de
- agilizar todos os processos de integração de sistemas externos à Plataforma de Serviços do [ePortugal](https://eportugal.gov.pt/servicos/comunicar-ocorrencias-no-espaco-publico-a-minha-rua).
+ agilizar todos os processos de integração de sistemas externos ao  [ePortugal](https://eportugal.gov.pt/servicos/comunicar-ocorrencias-no-espaco-publico-a-minha-rua).
 
 - [Regressar ao ecrã inicial](../)
 
@@ -49,14 +49,15 @@ Atualizar uma ocorrência
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|string|1....1|
-|OperationVersion|string|1....1|
-|Form|Formulário eForms|1....1|
+|idProblem|string|1....1|
+|changeDate|string|1....1|
+|status|string||1....1|
+|comments|string||1....1|
 
 ```markdown
 <update>
-	<id></id>
-	<changedate></changedate>
+	<idProblem></idProblem>
+	<changeDate></changeDate>
 	<status>?</status>
 	<comments></comments>
 </update>  
@@ -69,7 +70,7 @@ Obter ocorrências
 |------------ | ------------|
 |distrinc|string|1....1|
 |county|string|1....1|
-||parish|string||1....1|
+|parish|string||1....1|
 
 ```markdown
 <search>
@@ -82,7 +83,8 @@ Obter ocorrências
 </search>  
 ```
 
-## Obter imagem de uma oorrência
+## Obter imagem de um problema
+Obter a imagem associada ao problema reportado
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
@@ -94,6 +96,7 @@ Obter ocorrências
 </getImage> 
 ```
 ## Obter feedbkack
+Obter feedback de uma ocorrência
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
