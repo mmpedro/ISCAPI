@@ -54,11 +54,11 @@ Atualizar uma ocorrência
 |Form|Formulário eForms|1....1|
 
 ```markdown
-<´update>
-			<id>
-           <changedate></changedate>
-            <status>?</status>
-			<comments></comments>
+<update>
+	<id></id>
+	<changedate></changedate>
+	<status>?</status>
+	<comments></comments>
 </update>  
 
 ```
@@ -73,12 +73,12 @@ Obter ocorrências
 
 ```markdown
 <search>
-			<district></district>
-			<county></county>
-			<parish></parish>	
-			<status></status>
-			<dateReportedStart>/dateReportedEnd>
-			<dateSolvedStart>/dateSolvedEnd>		
+	<district></district>
+	<county></county>
+	<parish></parish>
+	<status></status>
+	<dateReportedStart></dateReportedStart>
+	<dateSolvedEnd></dateSolvedEnd>
 </search>  
 ```
 
@@ -101,7 +101,7 @@ Obter ocorrências
 
 ```markdown
 <getFeedback>
-<problemID></problemID>
+	<problemID></problemID>
 </getFeedback> 
 ```
 
