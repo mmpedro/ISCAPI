@@ -158,4 +158,5 @@ Colocar um comentário para o cidadão
 |3|Não Aplicável|
 |4|Reencaminhado|
 
+# Modelo de dados
 ![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/amr.png)
