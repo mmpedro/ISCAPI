@@ -152,6 +152,17 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 |TA|Taxa Administrativa|
 |T|Taxa de Serviço|
 
+##	Tipo de Utilizador
+
+|Id| Valor |Nível de confiança|
+|------------ | ------------| ------------|
+
+|1|Advogado| 4|
+|2|Solicitador | 4|
+|6|Notário |4|
+|4|Cidadão | 4 para Cartão de Cidadão 2 para Chave Móvel Digital|
+
+
 ## Plataforma de Integração
 [Consultar aqui a informação sobre a Plataforma de Integração](../iap)
 
