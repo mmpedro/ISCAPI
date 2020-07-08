@@ -34,12 +34,12 @@ Para verificar o código de (uma) entidade(s), deverá aceder ao SIOE, em http:/
 
 ## 	Tipos de Utilizador
 
-|Id| Valor |
-|------------ | ------------|
-|1|	Advogado|
-|2|	Solicitador|
-|4|	Cidadão|
-|6|	Notário|
+|Id| Valor | Nível Confiança |
+|------------ | ------------| ------------|
+|1|	Advogado|  4 |
+|2|	Solicitador|4 |
+|4|	Cidadão| 2 com chave móvel digital 4 com cartão de cidadão|
+|6|	Notário| 4|
 
 
 ## 	Tipo de Documento
@@ -152,15 +152,7 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 |TA|Taxa Administrativa|
 |T|Taxa de Serviço|
 
-##	Tipo de Utilizador
 
-|Id| Valor |Nível de confiança|
-|------------ | ------------| ------------|
-
-|1|Advogado| 4|
-|2|Solicitador | 4|
-|6|Notário |4|
-|4|Cidadão | 4 para Cartão de Cidadão 2 para Chave Móvel Digital|
 
 
 ## Plataforma de Integração
