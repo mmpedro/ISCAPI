@@ -1,0 +1,42 @@
+
+<?xml version="1.0" encoding="utf-16"?>
+<messageRequest
+ xmlns="http://ama.gov.pt/services/xsd">
+  <messageData
+ xmlns=""
+ xmlns:xsd="http://ama.gov.pt/services/xsd">
+    <messageEntityId>SIOE:ORG:071600000</messageEntityId>
+    <messageRelatesToId>20200716165538145</messageRelatesToId>
+    <messageRelatesToEntityId>SIOE:ORG:013250000</messageRelatesToEntityId>
+    <messageDate>2020-05-26T12:05:23</messageDate>
+  </messageData>
+  <requestData
+ xmlns=""
+ xmlns:xsd="http://ama.gov.pt/services/xsd">
+    <processNumber>510708</processNumber>
+    <requestNumber>1157/2020</requestNumber>
+    <requestExternalNumber>PROC/2971/2020</requestExternalNumber>
+    <requestDate>2020-07-16T16:55:38</requestDate>
+    <serviceCode>CES:SRV:000007286</serviceCode>
+    <channel>PointOfCareType.Web</channel>
+    <entityCode>SIOE:ORG:071600000</entityCode>
+    <localCode />
+    <userCode />
+    <userName />
+  </requestData>
+  <operationData
+ xmlns=""
+ xmlns:xsd="http://ama.gov.pt/services/xsd">
+    <operationCode>ISCOP002SendStateUpdate</operationCode>
+    <operationVersion>1.0</operationVersion>
+    <requestNumber>1157/2020</requestNumber>
+    <compEntityReqNumber>PROC/2971/2020</compEntityReqNumber>
+    <changeDate>2020-07-16T16:55:38</changeDate>
+    <sendDate>2020-07-16T16:55:38</sendDate>
+    <stateCode>9</stateCode>
+    <stateDesc>Em Análise</stateDesc>
+    <actionCode>3</actionCode>
+    <actionDesc>Colocar pedido em análise</actionDesc>
+    <comments />
+  </operationData>
+</messageRequest>

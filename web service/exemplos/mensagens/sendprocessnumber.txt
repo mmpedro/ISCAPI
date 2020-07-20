@@ -1,0 +1,38 @@
+	
+<?xml version="1.0" encoding="utf-16"?>
+<messageRequest
+ xmlns="http://ama.gov.pt/services/xsd">
+  <messageData
+ xmlns=""
+ xmlns:xsd="http://ama.gov.pt/services/xsd">
+    <messageEntityId>SIOE:ORG:071600000</messageEntityId>
+    <messageRelatesToId>20200720145825714</messageRelatesToId>
+    <messageRelatesToEntityId>SIOE:ORG:013250000</messageRelatesToEntityId>
+    <messageDate>2020-07-20T14:50:04</messageDate>
+  </messageData>
+  <requestData
+ xmlns=""
+ xmlns:xsd="http://ama.gov.pt/services/xsd">
+    <processNumber>512034</processNumber>
+    <requestNumber>1619/2020</requestNumber>
+    <requestExternalNumber>PROC/3162/2020</requestExternalNumber>
+    <requestDate>2020-07-20T14:58:25</requestDate>
+    <serviceCode>CES:SRV:000007286</serviceCode>
+    <channel>PointOfCareType.Web</channel>
+    <entityCode>SIOE:ORG:071600000<</entityCode>
+    <localCode />
+    <userCode />
+    <userName />
+  </requestData>
+  <operationData
+ xmlns=""
+ xmlns:xsd="http://ama.gov.pt/services/xsd">
+    <operationCode>ISCOP003SendProcessNumber</operationCode>
+    <operationVersion>1.0</operationVersion>
+    <requestNumber>1619/2020</requestNumber>
+    <compEntityReqNumber>PROC/3162/2020</compEntityReqNumber>
+    <replyType>OK</replyType>
+    <replyCode>200</replyCode>
+    <comments />
+  </operationData>
+</messageRequest>

@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-16"?>
+<messageRequest
+ xmlns:xsd="http://ama.gov.pt/services/xsd"
+ xmlns:ns3="http://www.portaldaempresa.pt/">
+  <messageData>
+    <messageEntityId>SIOE:ORG:013250000</messageEntityId>
+    <messageRelatesToEntityId>SIOE:ORG:071600000</messageRelatesToEntityId>
+    <messageDate>2020-07-14T22:39:10.000+01:00</messageDate>
+  </messageData>
+  <requestData>
+    <processNumber>511923</processNumber>
+    <requestNumber>1606/2020</requestNumber>
+    <requestDate>2020-07-14T22:39:10.000+01:00</requestDate>
+    <serviceCode>CES:SRV:000007286</serviceCode>
+    <channel>PointOfCareType.Web</channel>
+    <entityCode>SIOE:ORG:071600000</entityCode>
+    <userCode>26748601</userCode>
+    <userName />
+  </requestData>
+  <operationData>
+    <operationCode>ISCOP001SendForm</operationCode>
+    <operationVersion />
+    <xsd:Form>
+  <Id>4c504405-10ae-48f5-b0f2-731e77cdabc2</Id>
+  <SubmissionId>2766cfde-2798-49ff-88e3-6a12ea1e4a7c</SubmissionId>
+  <IsSubmitted>true</IsSubmitted>
+  <Pages>
+    <Page>
+      <Id>cc55b964-9460-4809-a128-3dfc0aaebd77</Id>
+      <IsValid>true</IsValid>
+      <Fields>
+        <Field>
+          <Id>11cae777-963f-428f-9b1f-3385b7a0122b</Id>
+          <Name>c_construtor</Name>
+          <Value>GEVA</Value>
+          <Text>GEVA</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>ed1f756a-3f42-49b8-905c-4e2d275ebbf9</Id>
+          <Name>c_email</Name>
+          <Value>teste@teste.pt</Value>
+          <Text>teste@teste.pt</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>5d1f2c6b-fd0d-4f4d-8172-d0893fb713a8</Id>
+          <Name>c_grau_per_fluido</Name>
+          <Value>2</Value>
+          <Text>Grupo II</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>ff13cd7a-eca4-434b-a521-9081dc49ecdf</Id>
+          <Name>c_modelo</Name>
+          <Value>ASSS</Value>
+          <Text>ASSS</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>703a7e9a-9f64-47ab-8c7a-2fced04e41b5</Id>
+          <Name>c_num_fabrico</Name>
+          <Value>SSSSS</Value>
+          <Text>SSSSS</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>826e2a70-764c-4efd-aa01-8a9546f72874</Id>
+          <Name>c_pais</Name>
+          <Value>2</Value>
+          <Text>África do Sul</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>add8287e-465f-44de-a1c0-bb995f3a356a</Id>
+          <Name>c_telefone</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>00a41a36-86ed-4143-8784-9b1300963cf2</Id>
+          <Name>c_telemovel</Name>
+          <Value>900000000</Value>
+          <Text>900000000</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>407191dd-e6a9-4dc2-9375-79cea379cf4e</Id>
+          <Name>ce_inspecao_intercalar</Name>
+          <Text>&lt;p style="margin: 0px; text-align: right;"&gt;&lt;span style="font-style: italic;"&gt;Equipamentos sob pressão (ESP) - Comunicação de inspeção intercalar&lt;/span&gt;&lt;/p&gt;</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>1e284bd7-4f41-4560-b8dd-75c8aa9f456f</Id>
+          <Name>e_02_localidade_postal</Name>
+          <Value>Maia</Value>
+          <Text>Maia</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>3b5537a6-927f-44e7-9a5c-37fed5b30d2b</Id>
+          <Name>e_03_distrito</Name>
+          <Value>13</Value>
+          <Text>Porto</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>0bed3bd2-1244-499d-bdc2-8f36b06f7b5e</Id>
+          <Name>e_04_concelho</Name>
+          <Value>1306</Value>
+          <Text>Maia</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>759701a8-300a-49a6-b486-b5c4e621d4e6</Id>
+          <Name>e_05_freguesia</Name>
+          <Value>130619</Value>
+          <Text>Cidade da Maia</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>076f1ef6-d1ae-4d86-b957-e78f065ecf55</Id>
+          <Name>e_07_localidade</Name>
+          <Value>Maia</Value>
+          <Text>Maia</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>08f533c6-cb53-40f6-9567-1b24b76abd53</Id>
+          <Name>e_08_tipo_de_via</Name>
+          <Value>Rua</Value>
+          <Text>Rua</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>5f58f386-93bc-4a4c-9782-45418fc51cdd</Id>
+          <Name>e_09_designacao_via</Name>
+          <Value>Espido</Value>
+          <Text>Espido</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>5e69e8dd-5b1a-472f-8741-d01fb9a63b97</Id>
+          <Name>e_andar</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>accd1f60-a481-4952-9b3e-20ff7831d6d0</Id>
+          <Name>e_cp_alternativo</Name>
+          <Value>4470-177</Value>
+          <Text>4470-177</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>2df9371c-f0f4-4ed7-a7db-481b9e8078e0</Id>
+          <Name>e_lado</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>39d99c44-fd66-4f0e-a0b4-dd89a17e55a9</Id>
+          <Name>e_lugar</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>a814c4c5-fff8-4781-87a9-4956588789c5</Id>
+          <Name>e_porta</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>320a0a8e-e4b1-407b-b81e-6b7023dd4d5b</Id>
+          <Name>equipamento_ano</Name>
+          <Value>1994</Value>
+          <Text>1994</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>68745648-e4c8-48f8-b31d-930019f36848</Id>
+          <Name>gps_latitude</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>69b374d3-e756-4c1c-aa7c-731ef21d487b</Id>
+          <Name>gps_longitude</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>52732356-a4dd-4e4d-9297-c0d9b0c7469c</Id>
+          <Name>grupo_esp</Name>
+          <Value>5</Value>
+          <Text>GPL</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>ad1b77d0-8679-4edb-9062-a95ea1ed8a9f</Id>
+          <Name>local_sede_sn</Name>
+          <Value>1</Value>
+          <Text>Sim</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>a2c438f7-3c7f-4d3f-9333-852d1f8a968f</Id>
+          <Name>num_externo</Name>
+          <Value>25623/C</Value>
+          <Text>25623/C</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+      </Fields>
+    </Page>
+    <Page>
+      <Id>ef2ddb3b-f630-4f00-bf29-8c91b321bd10</Id>
+      <IsValid>true</IsValid>
+      <Fields>
+        <Field>
+          <Id>0051a241-cec4-454c-9cd5-30671c8fbf66</Id>
+          <Name>ir_inspecao_intercalar</Name>
+          <Text>&lt;p style="margin: 0px; text-align: right;"&gt;&lt;span style="font-style: italic;"&gt;Equipamentos sob pressão (ESP) - Comunicação de inspeção intercalar&lt;/span&gt;&lt;/p&gt;</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>cca4b107-d7fd-49c2-9051-9c7a0dce9e21</Id>
+          <Name>licencaid</Name>
+          <Value>2619</Value>
+          <Text>2619</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>7db64e76-6e0c-4576-a673-122b0bc07985</Id>
+          <Name>req_cod_proc_online</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>692547f2-7507-463d-89f4-f0d00775853c</Id>
+          <Name>req_cod_proc_online_sn</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>57c98e37-77d0-49c2-a4a6-852574e32807</Id>
+          <Name>req_email</Name>
+          <Value>teste@teste.pt</Value>
+          <Text>teste@teste.pt</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>0fefa473-58e2-4f37-93df-81a94b1eb067</Id>
+          <Name>req_fich_proc</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>23248a70-02fd-4349-a548-a6991f036957</Id>
+          <Name>req_fich_proc_tit</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>c5b0f64c-6228-4803-86a5-ecf31018cf72</Id>
+          <Name>req_nome</Name>
+          <Value>Teste Teste</Value>
+          <Text>Teste Teste</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>36cc54eb-1306-4605-aa37-7a183ea8ce79</Id>
+          <Name>req_qualidade</Name>
+          <Value>1</Value>
+          <Text>Próprio</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>ce92cc4e-6e81-432b-ba4c-434f9e5bc670</Id>
+          <Name>req_telefone</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>899e7d1f-0048-46d6-9ca3-80d28ee0b7c3</Id>
+          <Name>req_telemovel</Name>
+          <Value>900000000</Value>
+          <Text>900000000</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>f3790450-9302-4029-b771-71f3073192a2</Id>
+          <Name>versao</Name>
+          <Value>0.3</Value>
+          <Text>0.3</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+      </Fields>
+    </Page>
+    <Page>
+      <Id>3cf7e5f9-ff29-4ae2-8186-95b8e76ae8f6</Id>
+      <IsValid>true</IsValid>
+      <Fields>
+        <Field>
+          <Id>ec2cc358-87a6-4416-b71d-86f82688c23b</Id>
+          <Name>cae_pedido</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>d2b1a0f6-ead7-49fa-b3f1-99d3aa9a3fee</Id>
+          <Name>ccdr</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>6fdb9e91-0acd-4b72-a138-6ab87ed3de13</Id>
+          <Name>d_inspecao_intercalar</Name>
+          <Text>&lt;p style="margin: 0px; text-align: right;"&gt;&lt;span style="font-style: italic;"&gt;Equipamentos sob pressão (ESP) - Comunicação de inspeção intercalar&lt;/span&gt;&lt;/p&gt;</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>e3c728e3-2353-4d66-a358-38b41134fb0d</Id>
+          <Name>declaro1</Name>
+          <Value>True</Value>
+          <Text>True</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>02d5de87-d115-4cf4-b735-b3a193379727</Id>
+          <Name>declaro2</Name>
+          <Value>True</Value>
+          <Text>True</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>0b1964f9-1166-4e23-ab41-3996ce466d0e</Id>
+          <Name>entitytype1</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>ee6bcb73-9fec-443e-a6a2-7a666587cb52</Id>
+          <Name>entitytype2</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>874af77c-0205-459c-9d24-d88568bc092b</Id>
+          <Name>entitytype3</Name>
+          <Value>5403</Value>
+          <Text>5403</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>895721bd-7a8a-4c92-a6cb-042cc7a7be70</Id>
+          <Name>entitytype4</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>e214ca2c-808d-43c3-a217-2ef68b1b8ff3</Id>
+          <Name>municipioid</Name>
+          <Value>5242</Value>
+          <Text>5242</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>7619a481-3dd9-4646-8582-1e2196c38308</Id>
+          <Name>proceduretype</Name>
+          <Value>4</Value>
+          <Text>4</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+      </Fields>
+    </Page>
+    <Page>
+      <Id>235d4951-0cc4-435a-b9d5-6290aa6452a0</Id>
+      <IsValid>true</IsValid>
+      <Fields>
+        <Field>
+          <Id>af7889b3-4a71-455a-bdb6-e15f73905be2</Id>
+          <Name>cargo_responsavel</Name>
+          <Value>TS</Value>
+          <Text>TS</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>2cfc7b0d-a529-4df4-aac6-1a156eae0065</Id>
+          <Name>certidao_estrangeiros</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>7e8b3c1d-5d48-42f9-80cd-8a0283399147</Id>
+          <Name>declaracao_atividade</Name>
+          <Files>
+            <File>
+              <Name>1. teste AMA.pdf</Name>
+              <Path>P:\eforms\data\documents\20191128\5e000bbd-332f-4901-800d-59b09d457e72\61b01f6f-28e3-4903-a4b6-e693d9fde1a3.pdf</Path>
+            </File>
+          </Files>
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>c73c7f15-6035-4a39-8b37-2976d2c26672</Id>
+          <Name>doc_legal_utilizador</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>69840d71-6e86-4c51-b616-e050b4f022b9</Id>
+          <Name>domicilio_fiscal</Name>
+          <Text>&lt;span style="font-weight: bold;"&gt;Domicílio fiscal do Proprietário&lt;/span&gt;</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>5342e00e-88c1-449c-82cc-f16b2c738061</Id>
+          <Name>it_inspecao_intercalar</Name>
+          <Text>&lt;p style="margin: 0px; text-align: right;"&gt;&lt;span style="font-style: italic;"&gt;Equipamentos sob pressão (ESP) - Comunicação de inspeção intercalar&lt;/span&gt;&lt;/p&gt;</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>5ebe1ebf-9589-48cb-9812-885762f8fabc</Id>
+          <Name>mostra_certidao_estrangeiros</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>a9c02f74-c0fc-4a26-be8f-e34fa9050ede</Id>
+          <Name>mostra_declaracao_atividade</Name>
+          <Text>campo para resolver o bug de mostrar grupos com ficheiros</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>981b9cc5-a6bd-44de-bf60-35ca2bf81812</Id>
+          <Name>mostra_doc_legal_utilizador</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>bbcab49d-7291-41d4-94fa-bb2e391f4661</Id>
+          <Name>mostra_titular_cert_reg_comercial</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>6dd54732-6c34-422e-8f95-52ba4dcdc130</Id>
+          <Name>pessoa_responsavel</Name>
+          <Value>Teste Teste</Value>
+          <Text>Teste Teste</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>f757595e-9cd2-490e-8004-d0b53eeb2621</Id>
+          <Name>proprietario_utilizador_sn</Name>
+          <Value>1</Value>
+          <Text>Sim</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>b40d7032-e295-4e48-a506-f6222d0a2745</Id>
+          <Name>t_02_localidade_postal</Name>
+          <Value>Maia</Value>
+          <Text>Maia</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>b359c532-fa65-4d03-91a7-24c976ce7b46</Id>
+          <Name>t_03_distrito</Name>
+          <Value>13</Value>
+          <Text>Porto</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>48efb103-0303-458e-938e-02ee18fcb52c</Id>
+          <Name>t_04_concelho</Name>
+          <Value>1306</Value>
+          <Text>Maia</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>65667184-1953-49d6-be06-a977b2c569d1</Id>
+          <Name>t_05_freguesia</Name>
+          <Value>130619</Value>
+          <Text>Cidade da Maia</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>bccae495-a969-4f39-b75d-c5dee308a221</Id>
+          <Name>t_07_localidade</Name>
+          <Value>Maia</Value>
+          <Text>Maia</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>acd18857-6d95-4484-9156-a8ab43d8b697</Id>
+          <Name>t_08_tipo_de_via</Name>
+          <Value>Rua</Value>
+          <Text>Rua</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>b624a0c1-ea4e-40d8-9da6-c06bc4d44437</Id>
+          <Name>t_09_designacao_via</Name>
+          <Value>Espido</Value>
+          <Text>Espido</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>20166908-cf2b-4840-bb23-7a6446619ad3</Id>
+          <Name>t_andar</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>f2612c3c-fb76-4108-b2d7-fe59799562d5</Id>
+          <Name>t_cp</Name>
+          <Value>4470-177</Value>
+          <Text>4470-177</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>d40c112e-0750-48a3-b580-c92b354c5376</Id>
+          <Name>t_lado</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>93eff397-a4d4-4a33-bb52-8a408a25ccb9</Id>
+          <Name>t_lugar</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>4dea9165-c18d-4428-b713-1169549a1c5f</Id>
+          <Name>t_porta</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>2b12cf45-4541-472d-b51d-e09a87600144</Id>
+          <Name>titular_cert_reg_comercial</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>c29a8c2e-b4cc-43d3-8cca-025803bd898b</Id>
+          <Name>titular_cidade</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>22ae95c0-35c0-44d7-b282-83f96d42a9fa</Id>
+          <Name>titular_cp</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>d0941219-d527-4b04-889b-b25c55d19006</Id>
+          <Name>titular_email</Name>
+          <Value>teste@teste.pt</Value>
+          <Text>teste@teste.pt</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>838c39c3-bcda-4e1f-8202-16eb44572027</Id>
+          <Name>titular_email_faturacao</Name>
+          <Value>teste@teste.pt</Value>
+          <Text>teste@teste.pt</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>4046cd83-e1b1-44f8-a895-245c58309bd5</Id>
+          <Name>titular_endereco</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>6936da95-1d18-468f-9906-a31318838bf4</Id>
+          <Name>titular_localidade</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>8cd7ff9a-14eb-4913-9eb0-1c056efcad6c</Id>
+          <Name>titular_nif</Name>
+          <Value>123456789</Value>
+          <Text>123456789</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>aefaf12e-a6fa-4423-98aa-90c1a82e8d76</Id>
+          <Name>titular_nome</Name>
+          <Value>Teste Teste</Value>
+          <Text>Teste Teste</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>0d74c2d7-fedc-4667-be8c-6b543f00cfe7</Id>
+          <Name>titular_pais</Name>
+          <Value>PT</Value>
+          <Text>Portugal</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>ad2f8595-6e19-42c6-9f72-c218c1fbc117</Id>
+          <Name>titular_regiao</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>7d78115b-ab6c-4156-b85b-0f62f38ad068</Id>
+          <Name>titular_telefone</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>a3d330de-5bb5-4f39-9717-74232a268edf</Id>
+          <Name>titular_telemovel</Name>
+          <Value>900000000</Value>
+          <Text>900000000</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>df96acfe-1991-42b3-afb0-f654132ae494</Id>
+          <Name>titular_tipo</Name>
+          <Value>1</Value>
+          <Text>Pessoa singular (empres&amp;#225;rio em nome individual)</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>4f165ace-0dbc-483f-bf59-77923b8346f5</Id>
+          <Name>u_02_localidade_postal</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>dfdafdf4-96f8-4edb-9c9a-60544d6216f7</Id>
+          <Name>u_03_distrito</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>c0fe0dbc-4222-49ba-a9c1-215b9ca95e82</Id>
+          <Name>u_04_concelho</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>eac392ed-7ee7-4e17-bea3-744b65834fe2</Id>
+          <Name>u_05_freguesia</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>false</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>9dd2e676-7672-49e6-b728-bfa9e1ded393</Id>
+          <Name>u_07_localidade</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>f21383b7-52af-454c-9d20-b2eed011e2fc</Id>
+          <Name>u_08_tipo_de_via</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>110cdeee-3ff8-441b-9334-d1a47cf3e4d2</Id>
+          <Name>u_09_designacao_via</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>fbd481a6-bf64-47f4-9baf-5e96cb4a0364</Id>
+          <Name>u_andar</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>39c0bedf-3522-456b-a624-e6e0f3a754f7</Id>
+          <Name>u_cp</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>385eeb61-44c5-43f3-8344-13a6cdfec6c1</Id>
+          <Name>u_lado</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>d0ac6069-9e26-42a1-b597-557f73c8b575</Id>
+          <Name>u_lugar</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>76d5a767-6a70-4997-aedd-5b193d89ef20</Id>
+          <Name>u_porta</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>d4c565e4-220f-4c81-81dd-581e085dafe9</Id>
+          <Name>utilizador_cae</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>ef042575-4127-4c29-a5b0-20aeac846c9a</Id>
+          <Name>utilizador_legal_sn</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>0ecfc0b2-76e5-4b8b-b563-20cf9a737b67</Id>
+          <Name>utilizador_nome</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+      </Fields>
+    </Page>
+    <Page>
+      <Id>d675718b-050e-4ec1-bacc-822c8f298093</Id>
+      <IsValid>true</IsValid>
+      <Fields>
+        <Field>
+          <Id>95217458-d85d-4b06-a4ed-58f24ca8a826</Id>
+          <Name>inspecao_certificado_emitido</Name>
+          <Files>
+            <File>
+              <Name>1. teste AMA.pdf</Name>
+              <Path>P:\eforms\data\documents\20191128\5e000bbd-332f-4901-800d-59b09d457e72\e67e2683-6bdd-438d-a911-297e5c1c4831.pdf</Path>
+            </File>
+          </Files>
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>6c98c095-34ce-4526-8274-4b4bfd2ea7dd</Id>
+          <Name>inspecao_data</Name>
+          <Value>06-11-2019</Value>
+          <Text>06-11-2019</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>3f300515-d1e7-4f1d-ab17-ff961f458a6e</Id>
+          <Name>inspecao_data_validade</Name>
+          <Value>30-11-2019</Value>
+          <Text>30-11-2019</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>313e81fe-70e0-4015-930a-e97015e955f4</Id>
+          <Name>inspecao_organismo</Name>
+          <Value>11</Value>
+          <Text>EQS</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>ff9598e7-8b36-4844-a320-d9022aff1c35</Id>
+          <Name>inspecao_relatorio_num</Name>
+          <Value>15.3564.56565654</Value>
+          <Text>15.3564.56565654</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>6217a799-9a6e-4d96-8fbd-3643a788df84</Id>
+          <Name>inspecao_relatorios</Name>
+          <Files>
+            <File>
+              <Name>1. teste AMA.pdf</Name>
+              <Path>P:\eforms\data\documents\20191128\5e000bbd-332f-4901-800d-59b09d457e72\c3cced16-b6f7-48c3-bc53-79195b7984f2.pdf</Path>
+            </File>
+          </Files>
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+      </Fields>
+    </Page>
+  </Pages>
+  <MultipleComposedTypes>
+    <MultipleComposedType Id="03ed3a17-3bc5-4bb9-b3bd-cb03025131d7" Name="caracteristicas_especificas_sp_lista" FieldType="DynamicList" ReadOnly="false">
+      <ComposedTypes>
+        <ComposedType Id="879" Name="Características específicas do ESP" FieldType="ComposedType" ReadOnly="false">
+          <SingleValues>
+            <SingleValue Id="63793979-85a5-436a-9b28-161746abf9ca" Name="composto_fluido" FieldType="TextBox" ReadOnly="false" Value="" />
+            <SingleValue Id="8c937b76-34c0-4b3c-9d67-6bb1e61217b2" Name="composto_temperatura_maxima" FieldType="TextBox" ReadOnly="false" Value="50" />
+            <SingleValue Id="ad317035-70eb-41fd-b400-80ff3d5f517a" Name="composto_temperatura_minima" FieldType="TextBox" ReadOnly="false" Value="-10" />
+            <SingleValue Id="0133c6ee-5b53-4fb8-8120-8874df345acb" Name="composto_pressao" FieldType="TextBox" ReadOnly="false" Value="10" />
+            <SingleValue Id="c7d0bc73-2895-4a8a-83aa-b4ba8be84cf6" Name="composto_capacidade_dimensao" FieldType="TextBox" ReadOnly="false" Value="5000" />
+          </SingleValues>
+          <Enumerables>
+            <Enumerable Id="8ae7a0cf-9015-4e05-ac97-084914d2f875" Name="composto_fluido_grp1" FieldType="CheckboxList" ReadOnly="false" EnumType="TG_TG_FLUIDOS_GRP1">
+              <Options>
+                <Option Key="42" Value="Gás petróleo liquefeito - GPL" />
+              </Options>
+            </Enumerable>
+            <Enumerable Id="062cf015-7d18-439b-a45a-3c6a7e014dfe" Name="composto_fluido_grp2" FieldType="CheckboxList" ReadOnly="false" EnumType="TG_TG_FLUIDOS_GRP2">
+              <Options />
+            </Enumerable>
+          </Enumerables>
+          <Files />
+          <MultipleComposedTypes />
+        </ComposedType>
+      </ComposedTypes>
+    </MultipleComposedType>
+  </MultipleComposedTypes>
+  <Declaration />
+    </xsd:Form>
+  </operationData>
+  <attachContext>
+    <TTL>0</TTL>
+    <FileGuid>2766cfde-2798-49ff-88e3-6a12ea1e4a7c</FileGuid>
+    <fileName>1594762809388_Declaracao.pdf</fileName>
+    <fileType>pdf</fileType>
+    <filePath>/opt/docs/multicanal/2020/07/14/28330</filePath>
+  </attachContext>
+</messageRequest>
