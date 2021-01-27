@@ -165,5 +165,13 @@ Colocar um comentário para o cidadão
 |M|Municipio|
 |F|Freguesia|
 
+
+## Privado
+
+| ID | Descrição|
+|------------ | ------------|
+|1|Sim|
+|0|Não|
+
 # Modelo de dados
 ![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/amr.png)
