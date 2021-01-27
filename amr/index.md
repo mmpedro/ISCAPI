@@ -23,21 +23,21 @@ Registar uma ocorrência
 	<title>?</title>
 	<description>?</description>
 	<person>
-		<name></name>
-		<email>?</email>
+		<name>Jonh Doe</name>
+		<email>john.doe@mail.com</email>
 		<phone>?</phone>
 	</person>
 	<isPrivate>?</isPrivate>
 	<channel>
-		<webpage></webpage>
+		<webpage>www.eportugal.gov.pt</webpage>
 	</channel>
 	<location>
 		<postCode4></postCode4>
 		<postCode3></postCode3>
 		<postName></postName>
-		<county></county>
-		<district></district>
-		<parish></parish>
+		<county>01</county>
+		<district>01</district>
+		<parish>03</parish>
 		<addressType><addressType>
 		<latitude></latitude>
 		<Longitude></longitude>
@@ -158,5 +158,11 @@ Colocar um comentário para o cidadão
 |3|Não Aplicável|
 |4|Reencaminhado|
 
+## Tipo de Morada
+
+| ID | Descrição|
+|------------ | ------------|
+|M|Municipio|
+|F|Freguesia|
 # Modelo de dados
 ![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/amr.png)
