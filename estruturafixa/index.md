@@ -87,6 +87,9 @@ Estrutura para identificação da operação
 
 ## Dados dos ficheiros
 Estrutura para envio de ficheiros
+O FileGuid mampeia com o campo do formulário ou a dacleração (id de submissão. ( Identificador dos campos é repetido em cada formulário do mesmo tipo identificado o tipo de campo eforms.
+O largeFileGuid é o identificador a ser usado para obtenção dos documentos através de Large Files .(ID único)
+
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
@@ -95,13 +98,31 @@ Estrutura para envio de ficheiros
 |fileName|string|1....1|
 |fileType|string|1....1|
 |filePath|string|1....1|
-
+|largeFileGuid|string|1....1|
 ```markdown
 <attachContext>
-  <TTL>?</TTL>
-  <fileGuid>?</fileGuid>
-  <fileName>?</fileName>
-  <fileType>?</fileType>
-  <filePath>?</filePath>
+  <TTL>0</TTL>
+    <FileGuid>3cffeb6a-8654-4309-a8d6-ff946dab4fb5</FileGuid>
+    <fileName>1611741425805_Declaracao.pdf</fileName>
+    <fileType>pdf</fileType>
+    <filePath></filePath>
+    <largeFileGuid>42cb4a55-ff7c-403e-8b27-dd891a175390</largeFileGuid>
 </attachContext>    
 ```
+
+Por exemplo o ficheiro  acima  mapeia com o campo req_fich_proc.
+```markdown
+ <Field>
+              <Id>da12f400-0228-4379-b689-c7c416b469d1</Id>
+              <Name>req_fich_proc</Name>
+              <Files>
+                <File>
+                  <Name>Declaracao (71).pdf</Name>
+                  <Path>dfab99c6-8834-4481-9374-dac0e1177b4e</Path>
+                </File>
+              </Files>
+              <SubFields />
+              <IsReadOnly>true</IsReadOnly>
+            </Field>
+```
+
