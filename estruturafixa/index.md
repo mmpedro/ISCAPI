@@ -139,8 +139,9 @@ O ficheiro de declaração\comprovativo é um caso particular pois não faz part
   </attachContext>
 ```
 Mapeia cm o identificador único de submissão
+```markdown
  <SubmissionId>3cffeb6a-8654-4309-a8d6-ff946dab4fb5</SubmissionId>
-
+```
 
 
 
