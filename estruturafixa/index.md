@@ -114,16 +114,16 @@ O largeFileGuid é o identificador a ser usado para obtenção dos documentos at
 Por exemplo o ficheiro  acima  mapeia com o campo req_fich_proc.
 ```markdown
  <Field>
-	<Id>da12f400-0228-4379-b689-c7c416b469d1</Id>
-	<Name>req_fich_proc</Name>
-    <Files>
-		<File>
-              <Name>Declaracao (71).pdf</Name>
-              <Path>dfab99c6-8834-4481-9374-dac0e1177b4e</Path>
-        </File>
-   </Files>
-   <SubFields />
-   <IsReadOnly>true</IsReadOnly>
+  <Id>da12f400-0228-4379-b689-c7c416b469d1</Id>
+  <Name>req_fich_proc</Name>
+  <Files>
+    <File>
+      <Name>Declaracao (71).pdf</Name>
+      <Path>dfab99c6-8834-4481-9374-dac0e1177b4e</Path>
+    </File>
+  </Files>
+  <SubFields/>
+  <IsReadOnly>true</IsReadOnly>
 </Field>
 ```
 
