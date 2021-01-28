@@ -143,10 +143,6 @@ Obter as categorias existentes para o reporte de problemas
 ## Obter distritos
 Obter os distritos existentes de um distrito,
 
-|Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
-
-
 ```markdown
 
 
@@ -157,6 +153,7 @@ Obter os concelhos existentes de um distrito , através do par DI do código dic
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
+|DI|string|1....1|
 
 
 ```markdown
@@ -171,6 +168,8 @@ Obter os distritos existentes de um distrito,
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
+|DI|string|1....1|
+|CO|string|1....1|
 
 
 ```markdown
