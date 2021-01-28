@@ -127,10 +127,8 @@ Por exemplo o ficheiro  acima  mapeia com o campo req_fich_proc.
   <IsReadOnly>true</IsReadOnly>
 </Field>
 ```
-
-```markdown
 O ficheiro de declaração\comprovativo é um caso particular pois não faz parte dos fichei
-
+```markdown
  <attachContext>
     <TTL>0</TTL>
     <FileGuid>3cffeb6a-8654-4309-a8d6-ff946dab4fb5</FileGuid>
@@ -139,7 +137,7 @@ O ficheiro de declaração\comprovativo é um caso particular pois não faz part
     <filePath>/opt/docs/multicanal/2021/01/27/34742</filePath>
     <largeFileGuid>42cb4a55-ff7c-403e-8b27-dd891a175390</largeFileGuid>
   </attachContext>
-
+```
 Mapeia cm o identificador único de submissão
  <SubmissionId>3cffeb6a-8654-4309-a8d6-ff946dab4fb5</SubmissionId>
 
