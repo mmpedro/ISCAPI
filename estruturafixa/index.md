@@ -102,14 +102,14 @@ Identificador dos campos é repetido em cada formulário do mesmo tipo identific
 |largeFileGuid|string|1....1|
 
 ```markdown
-<attachContext>
-  <TTL>0</TTL>
-    <FileGuid>3cffeb6a-8654-4309-a8d6-ff946dab4fb5</FileGuid>
-    <fileName>1611741425805_Declaracao.pdf</fileName>
+ <attachContext>
+    <TTL>0</TTL>
+    <FileGuid>da12f400-0228-4379-b689-c7c416b469d1</FileGuid>
+    <fileName>1611741425824_dfab99c6-8834-4481-9374-dac0e1177b4e.pdf</fileName>
     <fileType>pdf</fileType>
-    <filePath></filePath>
-    <largeFileGuid>42cb4a55-ff7c-403e-8b27-dd891a175390</largeFileGuid>
-</attachContext>    
+    <filePath>/opt/docs/multicanal/2021/01/27/34742</filePath>
+    <largeFileGuid>4caee12a-1ffe-4a22-ab19-6336568e21d7</largeFileGuid>
+  </attachContext>
 ```
 
 Por exemplo o ficheiro  acima  mapeia com o campo req_fich_proc.
