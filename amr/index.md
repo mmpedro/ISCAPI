@@ -110,7 +110,7 @@ Obter feedback de uma ocorrência
 </getFeedback> 
 ```
 
-## Enviar commentários
+## Enviar comentários
 Colocar um comentário para o cidadão
 
 |Elemento| Tipo | Cardinalidade|
@@ -126,6 +126,63 @@ Colocar um comentário para o cidadão
 	<comments></comments>
 </sendComments> 
 ```
+
+## Obter categorias
+Obter as categorias existentes para o reporte de problemas
+
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+
+
+```markdown
+
+
+```
+
+
+## Obter distritos
+Obter os distritos existentes de um distrito,
+
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+
+
+```markdown
+
+
+```
+
+## Obter concelhos
+Obter os concelhos existentes de um distrito , através do par DI do código dicofre.
+
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+
+
+```markdown
+<county>
+	<DI>10</DI>
+</county>
+
+```
+
+## Obter Freguesia|s de um determinado concelho
+Obter os distritos existentes de um distrito,
+
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+
+
+```markdown
+  <parish>
+			<DI>?</amr:DI>
+            <CO>?</amr:CO>
+  </parish>
+
+```
+
+
+
 ## Categorias
 
 | ID | Descrição|
