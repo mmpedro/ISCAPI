@@ -130,23 +130,10 @@ Colocar um comentário para o cidadão
 ## Obter categorias
 Obter as categorias existentes para o reporte de problemas
 
-|Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
-
-
-```markdown
-
-
-```
-
 
 ## Obter distritos
 Obter os distritos existentes de um distrito,
 
-```markdown
-
-
-```
 
 ## Obter concelhos
 Obter os concelhos existentes de um distrito , através do par DI do código dicofre.
