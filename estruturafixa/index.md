@@ -127,7 +127,7 @@ Por exemplo o ficheiro  acima  mapeia com o campo req_fich_proc.
   <IsReadOnly>true</IsReadOnly>
 </Field>
 ```
-O ficheiro de declaração\comprovativo é um caso particular pois não faz parte dos fichei
+O ficheiro de declaração\comprovativo é um caso particular pois não faz parte dos  campos do formulário.
 ```markdown
  <attachContext>
     <TTL>0</TTL>
@@ -138,7 +138,7 @@ O ficheiro de declaração\comprovativo é um caso particular pois não faz part
     <largeFileGuid>42cb4a55-ff7c-403e-8b27-dd891a175390</largeFileGuid>
   </attachContext>
 ```
-Mapeia cm o identificador único de submissão
+Mapeia com o identificador único de submissão
 ```markdown
  <SubmissionId>3cffeb6a-8654-4309-a8d6-ff946dab4fb5</SubmissionId>
 ```
